@@ -105,7 +105,7 @@ analytics:
 author:
   name: "휴지"
   avatar: /assets/images/hj.jpg
-  bio: "I am an **amazing** person."
+  bio: # 소개글 "I am an **amazing** person."
   location: "Somewhere"
   email:
   links:
