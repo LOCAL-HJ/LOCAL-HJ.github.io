@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: https://local-hj.github.io/
 
-    - title: "Category"
+  - title: "Category"
     url: /categories/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
