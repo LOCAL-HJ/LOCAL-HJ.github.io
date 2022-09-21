@@ -19,29 +19,29 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "Airbnb" %}
-                        <li><a href="/categories/cpp" class="">Airbnb ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Airbnb" class="">Airbnb ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "STL" %}
-                        <li><a href="/categories/stl" class="">KoKoa ({{category[1].size}})</a></li>
+                    {% if category[0] == "KoKoa" %}
+                        <li><a href="/categories/KoKoa" class="">KoKoa ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">WEB</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">HTML & CSS (with C++) ({{category[1].size}})</a></li>
+                    {% if category[0] == "HTML & CSS" %}
+                        <li><a href="/categories/HTML & CSS" class="">HTML & CSS (with C++) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">JavaScript ({{category[1].size}})</a></li>
+                    {% if category[0] == "JavaScript" %}
+                        <li><a href="/categories/JavaScript" class="">JavaScript ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
