@@ -106,7 +106,7 @@ author:
   name: "휴지"
   avatar: /assets/images/hj.jpg
   bio: # 소개글 "I am an **amazing** person."
-  location: "Somewhere"
+  location: # "Somewhere"
   email:
   links:
     - label: "Email"
