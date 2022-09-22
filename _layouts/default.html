@@ -12,6 +12,21 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="https://local-hj.github.io/assets/images/favicon/favicon-16x16.png"
+/>
+<link
+  rel="manifest"
+  href="https://local-hj.github.io/assets/images/favicon/site.webmanifest"
+/>
+<link
+  rel="mask-icon"
+  href="https://local-hj.github.io/assets/images/favicon/safari-pinned-tab.svg"
+  color="#5bbad5"
+/>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
@@ -49,19 +64,4 @@
   type="image/png"
   sizes="32x32"
   href="https://local-hj.github.io/assets/images/favicon/favicon-32x32.png"
-/>
-<link
-  rel="icon"
-  type="image/png"
-  sizes="16x16"
-  href="https://local-hj.github.io/assets/images/favicon/favicon-16x16.png"
-/>
-<link
-  rel="manifest"
-  href="https://local-hj.github.io/assets/images/favicon/site.webmanifest"
-/>
-<link
-  rel="mask-icon"
-  href="https://local-hj.github.io/assets/images/favicon/safari-pinned-tab.svg"
-  color="#5bbad5"
 />
