@@ -7,12 +7,13 @@
   Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+  파비콘 추가해서 link태그 코드 추가함
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-    <link
+    <link  
   rel="icon"
   type="image/png"
   sizes="16x16"
@@ -27,6 +28,7 @@
   href="https://local-hj.github.io/assets/images/favicon/safari-pinned-tab.svg"
   color="#5bbad5"
 />
+
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
