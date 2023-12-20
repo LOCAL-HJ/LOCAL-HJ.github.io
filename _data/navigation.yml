@@ -20,7 +20,7 @@ main:
 categories:
   - title: "Web"
     url: /categories/web/
-  - title: "CS"
+  - title: "Cs"
     url: /categories/cs/
   - title: "Etc"
-    url: /categories/Etc/
+    url: /categories/etc/
