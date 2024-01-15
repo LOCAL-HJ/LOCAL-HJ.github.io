@@ -1,6 +1,6 @@
 ---
 title: "[클라우딩 어플리케이션 엔지니어링] TIL DAY 2 (12/19)"
-excerpt: "프로그래머스 데브코스 2일차"
+excerpt: "프로그래머스 웹앱 엔지니어링 데브코스 데브코스 2일차"
 
 categories:
   - Programmers
