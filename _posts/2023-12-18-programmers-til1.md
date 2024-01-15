@@ -7,7 +7,7 @@ categories:
 tags:
   - [프로그래머스, 데브코스]
 
-permalink: /Programmers/programmers-til1
+permalink: /programmers/programmers-til1
 
 toc: true
 toc_sticky: true

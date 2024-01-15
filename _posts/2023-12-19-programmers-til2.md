@@ -7,7 +7,7 @@ categories:
 tags:
   - [프로그래머스, 데브코스]
 
-permalink: /Programmers/programmers-til2
+permalink: /programmers/programmers-til2
 
 toc: true
 toc_sticky: true
@@ -37,6 +37,7 @@ last_modified_at: 2023-12-19
   <!-- href : 속성 (Attribute) , #: 값(value), Google: 콘텐츠(content)-->
   ```
 - HTML 기본 문서
+
   ```html
   <! DOCTYPE html>
   <!--문서버전-->
@@ -54,12 +55,13 @@ last_modified_at: 2023-12-19
     </body>
   </html>
   ```
+
 - 부모 요소 자식 요소
   - html 코드는 부모 자식 요소로 구성되어있음
   - 따라서 들여쓰기, 내어쓰기 잘해야함
 - HTML 주석
   - 주석 (comment) : 개발자가 코드 내에 입력한 메모
-  - 기본 사용법 : `<!-- 주석 내용 -->` >>> 줄바꿈도 가능
+  - 기본 사용법 : `<!-- 주석 내용 -->` >> 줄바꿈도 가능
   - 주석 안에 주석은 안된다
   - 사용자에게는 보이지 않는 주석이지만, 소스보기나 개발자 도구로 보면 코드가 보이니 조심!
 
