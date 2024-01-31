@@ -128,37 +128,37 @@ last_modified_at: 2023-12-20
     - 기본 숫자 형식으로 목록을 그린다
     - `<li>` 태그를 사용하여 목록을 구성할 수 있고 다양한 태그를 포함 할 수 있다.
     - `<ol>` 태그의 자식 요소로는 `<li>` 태그만 들어와야 한다. 하위 리스트를 만들려면 `<li>` 태그안에 `<ol>`, `<ul>` 태그를 사용하면 된다.
-    ```html
-    <ul>
-      베스킨라빈스 Menu
-      <li>
-        아이스크림
-        <ol>
-          <li>사랑에 빠진 딸기</li>
-          <li>엄마는 외계인</li>
-        </ol>
-      </li>
-      <li>
-        커피
-        <ol>
-          <li>아메리카노</li>
-          <li>카페라떼</li>
-        </ol>
-      </li>
-    </ul>
-    ```
+      ```html
+      <ul>
+        베스킨라빈스 Menu
+        <li>
+          아이스크림
+          <ol>
+            <li>사랑에 빠진 딸기</li>
+            <li>엄마는 외계인</li>
+          </ol>
+        </li>
+        <li>
+          커피
+          <ol>
+            <li>아메리카노</li>
+            <li>카페라떼</li>
+          </ol>
+        </li>
+      </ul>
+      ```
   - `<dl>`, `<dt>`, `<dd>` : 설명 목록 태그
     - `<dt>` 태그에 사용된 단어 혹은 내용의 설명은 `<dd>` 태그에 작성할 수 있다.
     - 주로 용어 사전이나 “키-값” 이 있는 쌍의 목록을 나타낼 때 사용한다
     - `<dt>` 태그를 여러개 작성하고 하나의 `<dd>` 태그를 작성하는 것으로 여러 개의 용어를 설명할 수 있다.
     - 위와 반대로, `<dt>` 태그 하나에 여러개의 `<dd>` 태그를 가질 수 있다.
-    ```html
-    <dl>
-      <dt>사과</dt>
-      <dd>빨간 과일이다.</dd>
-      <dd>영어로는 Apple</dd>
-    </dl>
-    ```
+      ```html
+      <dl>
+        <dt>사과</dt>
+        <dd>빨간 과일이다.</dd>
+        <dd>영어로는 Apple</dd>
+      </dl>
+      ```
 - **표**
   - `<table>` : 표를 만드는 태그
     - `<tr>`태그로 행을 구분할 수 있다. (보통 row라고 부른다)
@@ -168,53 +168,57 @@ last_modified_at: 2023-12-20
     - `<tbody>` : 표 본문 요소 태그 - `<tbody>` 태그 안에 여러 열의 행을 넣음으로써 본문 요소를 그룹지을 수 있다.
     - `<tfoot>` : 표 바닥글 요소 태그 -`<tfoot>`태그안에 여러 열의 행을 넣음으로써 표의 바닥글 요소를 넣을 수 있다. 문서버전이 HTML4라면 `<tfoot>`는 `<tbody>`보다 먼저 작성되어야 하고 HTML5버전이라면 `<thead>`, `<tbody>`, `<tfoot>` 순으로 배치되어야 한다.
     - `<caption>` : 표 설명 태그 - `<caption>` 태그를 사용하여 표가 가진 데이터에 대한 설명을 넣을 수 있다.
-    ```html
-    <table>
-      <thead>
-        <tr>
-          <th>이름</th>
-          <th>ID</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>제니</td>
-          <td>1</td>
-        </tr>
-        <tr>
-          <td>지수</td>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>로제</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>리사</td>
-          <td>4</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>마지막 멤버</td>
-          <td>5</td>
-        </tr>
-      </tfoot>
-    </table>
-    ```
+      ```html
+      <table>
+        <thead>
+          <tr>
+            <th>이름</th>
+            <th>ID</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>제니</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>지수</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>로제</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>리사</td>
+            <td>4</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>마지막 멤버</td>
+            <td>5</td>
+          </tr>
+        </tfoot>
+      </table>
+      ```
 - **외부 콘텐츠**
+
   - `<iframe>` : 현재 문서 안에 다른 HTML 페이지를 삽입할 수 있는 태그
+
     - src 속성에 원하는 HTML 문서 또는 URL을 넣을 수 있다.
     - 외부 페이지를 불러올 수 있기 때문에 불러온 외부 페이지의 영향을 받을 수 있다.
     - name 속성을 지정하면,`<a>` 태그의 target 속성을 사용해 iframe에서 문서 또는 URL 이 열리게 할 수 있다.
-    ```html
-    <iframe src="/example01/index.html">아이프레임 지원할 수 없음 </iframe>
-    ```
-    ```html
-    <iframe name="sample" src="https://example.com/"></iframe>
-    <a href="index.html" target="sample">예시</a>
-    <!-- 우리 링크를 iframe 사용해서 불러올 수도 있다-->
-    ```
+
+      ```html
+      <iframe src="/example01/index.html">아이프레임 지원할 수 없음 </iframe>
+      ```
+
+      ```html
+      <iframe name="sample" src="https://example.com/"></iframe>
+      <a href="index.html" target="sample">예시</a>
+      <!-- 우리 링크를 iframe 사용해서 불러올 수도 있다-->
+      ```
 
 ### 양식 태그
 
