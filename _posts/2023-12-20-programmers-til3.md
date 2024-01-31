@@ -82,12 +82,12 @@ last_modified_at: 2023-12-20
     - `<figcation>` 태그를 사용해 콘텐츠의 설명 혹은 범례를 추가할 수 있고 제일 처음이나 제일 아래에 추가해서 사용할 수 있다.
     - **_figcation은 줄이 여러개 있을때 중간에 들어가는건 안된다_**
     - 보통 이미지를 넣는데 인용문, 비디오/오디오 등 문서의 흐름에 참조는 되지만 독립적으로 분리되어도 되는 내용을 담을 수 있다.
-    ```html
-    <figure>
-      <img src="/dog.png" alt="강아지" />
-      <figcaption>귀여운 강아지</figcaption>
-    </figure>
-    ```
+      ```html
+      <figure>
+        <img src="/dog.png" alt="강아지" />
+        <figcaption>귀여운 강아지</figcaption>
+      </figure>
+      ```
   - `<video>` : 문서 내에 영상을 첨부할 수 있는 태그
     - src 속성을 사용하여 비디오를 문서 내에 첨부할 수 있음
     - poster 속성을 사용하면 비디오가 로드되기 전에 포스터를 보여줄 수 있다.
@@ -262,9 +262,11 @@ last_modified_at: 2023-12-20
     <img width="471" alt="2" src="https://github.com/LOCAL-HJ/LOCAL-HJ.github.io/assets/107786171/8f3b1d49-65da-46f0-87ac-6e4dcde1eaa2">
 
 - `<label>`**: input , textarea, selectbox** 의 설명을 작성할 수 있는 태그
+
   - **_for_** 속성을 사용하여 연결하고자 하는 태그에 id 속성을 지정하면 label을 클릭하면 연결된 태그가 선택된다
   - label 태그 안에 input을 넣으면 자동으로 for → id 연결과 같은 처리를 해준다
   - id 속성은 값이 절대로 중복되면 안된다
+
   ```html
   <label for="name">이름 : </label>
   <input id="name" type="text" />
@@ -276,6 +278,7 @@ last_modified_at: 2023-12-20
     <input name="age" type="number" />
   </label>
   ```
+
 - `<input>`: 사용자에게 데이터를 입력받을 수 있는 대화형 태그
 
   - **type** 속성의 값에 따라 받을 수 있는 input의 유형이 달라진다. (기본값: text)
