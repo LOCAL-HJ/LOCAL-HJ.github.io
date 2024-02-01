@@ -256,23 +256,27 @@ ul li:first-child::after {
   }
   ```
 - **우선 순위 (명시도)** : 작성 순서, 결합, 선택자에 따라 우선 순위는 변경된다.
+
   - 기본 우선 순위 : 아래로 내려갈 수록 높은 우선 순위를 가진다.
     1. 유형(태그) 선택자 및 의사 (가상) 요소
     2. Class 선택자, 속성 선택자, 의사(가상) 클래스
     3. ID 선택자
     4. inline CSS
-    ```html
-    <div class="pro">프로그래머스 데브코스</div>
-    ```
-    ```css
-    .pro {
-      color: yellow;
-    }
-    div {
-      color: blue;
-    }
-    /* 노란색 */
-    ```
+
+  ```html
+  <div class="pro">프로그래머스 데브코스</div>
+  ```
+
+  ```css
+  .pro {
+    color: yellow;
+  }
+  div {
+    color: blue;
+  }
+  /* 노란색 */
+  ```
+
   - !important : 돌발 상황을 발생시키는 악동 ( 특정 Style의 우선순위를 먼저 가져올 수 있다)
     - important를 이기려면 더 많은 자손을 결합하고 important를 선언해야하는데, 잘못될 경우 important 지옥에 빠질 수 있으니 반드시 주의해야하고 important의 사용은 지양해야한다.
     ```css
