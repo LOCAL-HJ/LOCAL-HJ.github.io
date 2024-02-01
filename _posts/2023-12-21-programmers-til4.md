@@ -92,9 +92,11 @@ div {
 - inline CSS : 태그에 직접 스타일 정의
   - 전역 속성인 style 속성을 사용하여 스타일을 선언 할 수 있음
   - 코드 유지보수의 어려움, 반응형 처리 불가능 등의 이유로 가능한 사용을 지양해야함
-  ```html
-  <p style="color: orange; font-size: 50px">css 실습 중</p>
-  ```
+
+```html
+<p style="color: orange; font-size: 50px">css 실습 중</p>
+```
+
 - CSS 주석 : 스타일 시트 내에 개발자가 남기는 코멘트
   - /\*\*/ 사이에 내용을 입력할 수 있다
   - 줄바꿈을 통해 여러 줄의 주석을 남길 수 있다
