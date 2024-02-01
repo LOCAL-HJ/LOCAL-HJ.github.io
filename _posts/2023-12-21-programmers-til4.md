@@ -36,54 +36,59 @@ last_modified_at: 2023-12-21
 - 내부 CSS : 웹 문서 안에서 스타일을 작성
   - `<head>` 태그 안에 `<style>` 태그를 사용하여 작성
   - HTML5 부터 type 속성의 선언은 생략 가능
-  ```html
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
-      <style>
-        h1 {
-          color: blue;
-        }
-      </style>
-    </head>
-    <body>
-      <h1>programmers</h1>
-      <div>데브코스</div>
-    </body>
-  </html>
-  ```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>programmers</h1>
+    <div>데브코스</div>
+  </body>
+</html>
+```
+
 - 외부 CSS : 별도의 파일을 만들어서 스타일 코드 관리
   - 스타일이 길어질 경우 하나의 문서내에서 관리할 수 없기 때문에 분리해서 관리를 하기 위함
   - href 속성에 분리한 스타일 시트의 경로를 입력하여 사용
   - rel 속성에 stylesheet를 넣어 스타일 시트 파일을 불러 오는 것을 정확히 명시
-  ```html
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
-      <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-      <h1>programmers</h1>
-      <div>데브코스</div>
-    </body>
-  </html>
-  ```
-  ```css
-  h1 {
-    color: yellow;
-  }
-  div {
-    font-size: 80px;
-    letter-spacing: 50px;
-  }
-  /* css 주석 입니당 */
-  ```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>programmers</h1>
+    <div>데브코스</div>
+  </body>
+</html>
+```
+
+```css
+h1 {
+  color: yellow;
+}
+div {
+  font-size: 80px;
+  letter-spacing: 50px;
+}
+/* css 주석 입니당 */
+```
+
 - inline CSS : 태그에 직접 스타일 정의
   - 전역 속성인 style 속성을 사용하여 스타일을 선언 할 수 있음
   - 코드 유지보수의 어려움, 반응형 처리 불가능 등의 이유로 가능한 사용을 지양해야함
