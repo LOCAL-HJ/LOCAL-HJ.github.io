@@ -140,6 +140,5 @@ Reference : [https://tcpschool.com/html/html_space_layouts](https://tcpschool.co
 
 ---
 
-<br>
-
-    ⭐️ 개인 공부 기록용 블로그입니다. 오류나 틀린 부분이 있을 경우 메일로 지적해주시면 감사하겠습니다! ⭐️
+    ⭐️ 개인 공부 기록용 블로그입니다.
+    오류나 틀린 부분이 있을 경우 메일로 지적해주시면 감사하겠습니다! ⭐️
