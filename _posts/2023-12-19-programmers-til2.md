@@ -137,3 +137,9 @@ Reference : [https://tcpschool.com/html/html_space_layouts](https://tcpschool.co
 ## [Feelings+Finding]
 
 - 이번 강의를 수강하기 전에 HTML 코드를 작성할때 Semantic 태그를 잘 사용하지 않았는데, 강의를 수강하고 나서 레이아웃 태그의 중요성을 깨달았고 문서의 구조를 잘 생각해보면서 레이아웃 태그를 제대로 사용해야겠다는 생각이 들었다.
+
+---
+
+<br>
+
+    ⭐️ 개인 공부 기록용 블로그입니다. 오류나 틀린 부분이 있을 경우 메일로 지적해주시면 감사하겠습니다! ⭐️
