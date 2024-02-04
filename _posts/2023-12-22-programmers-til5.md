@@ -117,8 +117,10 @@ last_modified_at: 2023-12-22
     - display의 none과 다르게 시각적으로만 숨겨지기 때문에 레이아웃상에서 공간을 그대로 차지하게 된다
     - hidden으로 숨겨진 요소는 접근성 트리에서 제외되기때문에 스크린 리더가 읽지 않는다
 - float : 문맥의 흐름으로부터 빠져 좌우측에 배치되는 속성이다
+
   - MS Word나, 한글 문서에서 이미지를 좌측, 우측에 배치하는 속성이다.
   - left, right로 배치할 수 있다
+
   ```html
   <!DOCTYPE html>
   <html lang="en">
@@ -139,11 +141,13 @@ last_modified_at: 2023-12-22
     </body>
   </html>
   ```
+
   ```css
   img {
     float: left;
   }
   ```
+
 - **position**: 문서상에 요소를 배치하는 방법을 지정한다
   - top, right, bottom, left 값으로 offset(위치)을 제어할 수 있다
   - z-index 값으로 z축을 제어해 쌓이는 순서를 정의할 수 있다
@@ -174,6 +178,7 @@ last_modified_at: 2023-12-22
   - flex-wrap: nowrap을 통해 wrapping이 일어나지 않게 할 수 있다.
   - 참고: [https://flexboxfroggy.com/#ko](https://flexboxfroggy.com/#ko)
 - 바둑판 상자 만들기(Grid) : 수평선과 수직선을 가진 2차원 레이아웃을 만들 수 있다
+
   - 바둑판 조절하기 : grid-template
     ```css
     .box {
@@ -188,6 +193,7 @@ last_modified_at: 2023-12-22
     ```
   - 반복하기 : repeat
   - 셀 확장 : grid-row, grid-column
+
   ```css
   .box{
     grid-column: 1 / 3
@@ -202,7 +208,9 @@ last_modified_at: 2023-12-22
     /* 일단 번호를 해준 후.이렇게 2셀을 차지하게 만들어주면 2칸 차지가능 */
     /* 칸이 병합되었을 때, 위치가 병합된 칸으로 가라고 했을 때에는, 병합된 칸을 밀어내고 그냥 칸으로 감. */}
   ```
+
   - 영역 지정하고 배치하기 : grid-templte-areas, grid-area
+
   ```css
   .box {
     display: grid;
@@ -215,6 +223,7 @@ last_modified_at: 2023-12-22
     grid-area: header; /* 지어진 이름으로 가라라는 뜻. 따옴표로 감싸면 안됨 */
   }
   ```
+
   - 여백과 순서 : gap, order
 
 ### CSS 주의 사항
