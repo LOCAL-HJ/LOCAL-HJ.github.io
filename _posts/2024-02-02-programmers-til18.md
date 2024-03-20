@@ -30,7 +30,9 @@ last_modified_at: 2024-2-2
 
 1. **React는 Component 기반의 UI 라이브러리**
 2. **React는 선언형 프로그래밍 방식으로 웹서비스를 설계**
+
    - 명령형 프로그래밍: 절차를 하나하나 다 나열해야함
+
      ```
      1. 결과를 표시할 요소를 가져온다 (id = result)
      2. 현재 결과값을 10진수 기준, 숫자형으로 변환해서 가져와 current라는 상수에 저장한다
@@ -39,18 +41,20 @@ last_modified_at: 2024-2-2
 
      // jQuery
      ```
+
    - 선언형 프로그래밍: 그냥 목적을 바로 말함
+
      ```
      1. plus를 누르면 , result 값에 +1 한다. Minus를 눌렀다면 반대로 한다
 
      // react
      ```
+
 3. **Virtual Dom**
    - DOM(Document Object Model) : 브라우저가 실제로 사용하는 객체
    - 화면에 나타나는 DOM 을 업데이트 시키는 것이 아니라 가상의 DOM을 미리 업데이트 시켜본 다음에 가상의 DOM이기 때문에 렌더링 과정은 안거침, 따라서 그만큼의 연산은 안함, 한번에 Real DOM에 업데이트
    - 5번을 업데이트 할것을 한번에 업데이트 할 수 있게끔 함
-       <img width="837" alt="4" src="https://github.com/LOCAL-HJ/LOCAL-HJ.github.io/assets/107786171/5e58e494-c1a0-4da4-a114-938feeec4a15">
-
+     <img width="837" alt="4" src="https://github.com/LOCAL-HJ/LOCAL-HJ.github.io/assets/107786171/5e58e494-c1a0-4da4-a114-938feeec4a15">
 
 ### Create React APP
 
@@ -103,9 +107,11 @@ import App from "./App";
 
   - jsx로 컴포넌트 만들어서 return 하려면 반드시 최상위 태그로 다른 태그들을 묶어줘야 함
   - 만약 최상위 태그를 사용안한다면 React.Fragment로 감싸주기 or 그냥 빈 태그
+
     ```jsx
     import React from "react";
     ```
+
     ```jsx
     function App() {
       let name = "이름";
@@ -121,6 +127,7 @@ import App from "./App";
       );
     }
     ```
+
     ```jsx
     function App() {
       let name = "이름";
@@ -141,6 +148,7 @@ import App from "./App";
 - 리액트 기능을 사용하지 않은 컴포넌트에서는 굳이 리액트 임포트 안해도된다
 - jsx에서는 `class=`말고 `className=` 사용
 - css파일을 만들지 않고 객체를 만들어서 인라인 스타일을 사용할 수 있다
+
   ```jsx
   // import "./App.css";
   import MyHeader from "./MyHeader";
@@ -172,6 +180,7 @@ import App from "./App";
 
   export default App;
   ```
+
 - jsx의 javascript 값 사용
   - 중괄호 안에 사용해야 함, jsx에서는 javascript의 변수나 값을 사용할 수 있음
   - 어떠한 함수의 호출이 되어도 되고, 문자열, 숫자 등 가능

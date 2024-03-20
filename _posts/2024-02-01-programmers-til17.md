@@ -120,7 +120,7 @@ module.exports = {
 
 <img width="144" alt="3" src="https://github.com/LOCAL-HJ/LOCAL-HJ.github.io/assets/107786171/d89cf1de-b01d-4f7a-b949-6034d8fef557">
 
-> > 외부 패키지 보관소
+: 외부 패키지 보관소
 
 ```jsx
 // randomColor 실행
