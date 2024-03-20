@@ -57,6 +57,7 @@ last_modified_at: 2024-1-31
 - command 누르고 여러개 누르면 다중 선택 가능
 - 프레임 만들때 shift 누르면 정사각 형태로 만들 수 있음
 - 결과
+
   <img width="222" alt="1" src="https://github.com/LOCAL-HJ/LOCAL-HJ.github.io/assets/107786171/a953df60-50f6-4795-9921-577fbede4762">
 
 ### 데브모드
